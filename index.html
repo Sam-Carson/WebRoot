@@ -7,20 +7,45 @@
     <meta name="author" content="Sam Carson" />
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <title>Sam Carson</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
 </head>
 <body>
-    <div id="image-container">
-        <img src="img/ProfilePic.JPG" alt="Sam Carson">
-    </div>
     <div class="container-fluid">
-        <h1>Sam Carson</h1>
-        <p>Hey, I'm Sam. I am a student at Bellevue College learning Application Development.
-            I am currently studying technologies such as HTML5, CSS3, JavaScript, C#, and .NET. 
-            My focus is in mobile applicatin development and I hope to one day build iOS apps.
-        </p>
+        <div class="row">
+            <div class="col-4">
+                <div id="image-container">
+                    <img src="img/ProfilePic.JPG" alt="Sam Carson">
+                </div>
+                <div class="person-info-container">
+                    <h1>Sam Carson</h1>
+                    <p>Mobile Application Developer</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <p>
+                    Hey, I'm Sam. I am a student at Bellevue College learning Application Development.
+                    I am currently studying technologies such as HTML5, CSS3, JavaScript, C#, and .NET. 
+                    My focus is in mobile applicatin development and I hope to one day build iOS apps. 
+                    Something that is great about learning C# and .NET is the language can be used to 
+                    build iOS applications thanks to Xamarin. <br />
+                    <br />
+                    There is still some time between now and when I have my degree so until then I'll
+                    be working on personal projects that help refine my skills that I learn in class.
+                    Currently I'm working on a web app that emerges users into the world of mountain biking.
+                    Whether it be finding trails near by or wanting to catch on the latest MTB news, you'll
+                    find everything you need at GopherDirt.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="soon-to-be-navbar">
         <p><a href="html/webresources.html">Web Resources</a></p>
-        <button>Resume</button>
     </div>
 </body>
 </html>

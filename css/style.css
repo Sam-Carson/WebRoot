@@ -11,29 +11,39 @@ body{
     background-color: rgb(40 44 52);
 }
 
-.container-fluid{
+.webresources-container{
     margin: auto;
     text-align: center;
     width: 60%;
 }
 
 #image-container {
-    margin: auto;
+    margin: 5%;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
 }
-
-h1{
-    font: 1.5 'Roboto';
-    color: white;
+.person-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font: 2.8125em 'Roboto';
+    color: white;
+}
 p{
-    font: 1.3 s'Roboto';
+    font: 1.2em 'Roboto';
     color: white;
 }
 
@@ -45,18 +55,11 @@ img{
   transform: scaleX(-1);
 }
 
-button {
-    padding: 9px 25px; /* creates the option to give a background */
-    background-color: rgb(35, 182, 201);
-    border: none;
-    border-radius: 25px; /* rounds the corners */
-    cursor: pointer; /* changed mouse to pointer when over it */
-    transition: all 0.3s ease 0s; /* fades the background color to a lower opacyity */
-    margin-top: 20px;
-}
 
-button:hover {
-    background-color: rgba(66, 218, 238, 0.932);
+.soon-to-be-navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
 }
 
 /***** webresources.html *****/
@@ -88,10 +91,6 @@ h3{
     margin: 5% 0 0 0;
 }
 
-.container-fluid{
-    width: 80%;
-}
-
 .wr-header{
     margin: 0 0 40px 0;
 }
@@ -121,6 +120,8 @@ h3{
     left: 5%;
     color: white;;
 }
+
+/***** Navbar *****/
 
 
 
