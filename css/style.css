@@ -1,11 +1,14 @@
 *{
-    background-color: rgb(40 44 52);
-    font: 1.1em;
-    
+    font: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     margin: 8% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40 44 52);
 }
 
 .container-fluid{
@@ -25,12 +28,12 @@ body{
 }
 
 h1{
-    font: 1.5 sans-serif;
+    font: 1.5 'Roboto';
     color: white;
 }
 
 p{
-    font: 1.3 sans-serif;
+    font: 1.3 s'Roboto';
     color: white;
 }
 
@@ -55,3 +58,69 @@ button {
 button:hover {
     background-color: rgba(66, 218, 238, 0.932);
 }
+
+/***** webresources.html *****/
+
+a,
+a:hover,
+a:active,
+a:visited{
+    text-decoration: none;
+}
+
+a {
+    color: rgb(253, 255, 138);
+}
+
+a:hover{
+    color:  rgb(35, 182, 201);
+}
+
+a:active{
+    color: blue;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+.webresources-body{
+    margin: 5% 0 0 0;
+}
+
+.container-fluid{
+    width: 80%;
+}
+
+.wr-header{
+    margin: 0 0 40px 0;
+}
+
+.resource-container{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(38, 38, 48);
+    display: inline-block;
+    position: relative;
+    vertical-align: top; /* makes cards alighn correctly */
+}
+
+.resource-container:hover{
+    transform: scale(1.05);
+    background-color: rgb(35 35 45);
+    transition: 0.3s;
+}
+
+.rating-container{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;;
+}
+
+
+
